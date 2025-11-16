@@ -1,6 +1,8 @@
 # ShoppingWeb
 # ShoppingWeb
 
+jenkin : Harshita - d4528f056d9545a8928aab4567bb42de
+
 Jenkin steps- html css files create ..... push to github (dont add readme files) .....open jenkin (usually localhost:8080)- new item - pipeline - ok .....github repo---github hook trigger for gitscm polling  check ---pipeline script --- done
 
 
@@ -33,8 +35,7 @@ pipeline {
 
 
 Using  Docker 
-1) Github push
-   
+1) Github push  
 2)Dockerfile :
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
